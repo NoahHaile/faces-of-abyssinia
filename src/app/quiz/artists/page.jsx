@@ -143,6 +143,16 @@ const Quiz = () => {
       setLoading(true);
   }, [resultArray]);
 
+  useEffect(() => {
+    let timer;
+    if (loading) {
+      timer = setTimeout(() => {
+        setLoading(false);
+      }, 5000); // Adjust the time as needed
+    }
+
+    return () => clearTimeout(timer);
+  }, [loading]);
   return (
     <Container maxWidth="sm">
       {!displayResult ? (
