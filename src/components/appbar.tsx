@@ -28,10 +28,11 @@ export default function MenuAppBar() {
   const homePage = () => {
     // Define what homePage function should do, if needed
   }
-
-  const titleSegment = pathname.split('/')[2];
+  const splits = pathname.split('/');
+  const titleSegment = splits[splits.length - 1];
+  
   const capitalizeFirstChar = (str:string) => {
-    if (!str) return "";
+    if (str == "facesofabyssinia") return "";
     return str.charAt(0).toUpperCase() + str.slice(1);
   };
 

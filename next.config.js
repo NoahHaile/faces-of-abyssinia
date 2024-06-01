@@ -2,7 +2,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
- 
+  basePath: "/communityprojects/facesofabyssinia",
   assetPrefix: "/communityprojects/facesofabyssinia/",
   async rewrites() {
     return [
