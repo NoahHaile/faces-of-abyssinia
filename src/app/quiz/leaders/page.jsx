@@ -40,7 +40,7 @@ const quizData = [
     imageSrc: "https://i.ibb.co/dMvSy4Y/zewditu.jpg",
     options: ["Zewditu I", "Eleni Abraham", "Eleni I", "Bati Dil Wenbera Mahfuz"],
     answer: 0,
-    description: "Zewditu (ዘውዲቱ) was Empress of Ethiopia from 1916 until her death in 1930. The first female head of an internationally recognized country in Africa in the 19th and 20th centuries, and the first and only empress regnant of the Ethiopian Empire, her reign was noted for the reforms of her Regent and designated heir Ras Tafari Makonnen (who succeeded her as Emperor Haile Selassie I), about which she was at best ambivalent and often stridently opposed, due to her staunch conservatism and strong religious devotion.",
+    description: "Zewditu (ዘውዲቱ) was Empress of Ethiopia from 1916 until her death in 1930. The first female head of an internationally recognized country in Africa in the 19th and 20th centuries, and the first and only empress regnant of the Ethiopian Empire, her reign was noted for the reforms of her Regent and designated heir Ras Tafari Makonnen (who succeeded her as Emperor Haile Selassie I).",
     link: "https://en.wikipedia.org/wiki/Zewditu"
   },
   {
