@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation";
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import HomeIcon from '@mui/icons-material/Home';
+import { SUBDOMAIN } from '../constants';
 
 const CustomAppBar = styled(AppBar)(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
@@ -46,7 +47,7 @@ export default function MenuAppBar() {
             Faces of Abyssinia {formattedTitleSegment ? `| ${formattedTitleSegment}` : ""}
           </TitleTypography>
           {formattedTitleSegment && (
-            <Link href={`/`} passHref>
+            <Link href={`${SUBDOMAIN}/`} passHref>
               <Button
                 color="secondary"
                 variant="contained"

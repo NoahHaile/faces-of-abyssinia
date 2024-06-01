@@ -1,5 +1,6 @@
 import { Box, Typography, Button, Container, Card, CardContent, CardMedia, Paper, Grid } from '@mui/material';
 import Link from 'next/link';
+import { SUBDOMAIN } from '../constants';
 
 const quizzes = [
   { id: 1, title: 'Ethiopian Leaders', description: 'The people of the past', link: 'leaders', imgSrc: "https://i.ibb.co/N3DLGWF/Haile-Selassie-Africa-Rebirth.jpg" },
@@ -25,7 +26,7 @@ const QuizCard = ({ quiz }) => (
       <Typography variant="h5">{quiz.title}</Typography>
       <Typography variant="subtitle2" color="text.secondary" >{quiz.description}</Typography>
       <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
-        <Link href={`/quiz/${quiz.link}`} passHref>
+        <Link href={`${SUBDOMAIN}/quiz/${quiz.link}`} passHref>
           <Button variant="contained" color="primary" sx={{ mt: 1 }}>Start</Button>
         </Link>
       </Box>
