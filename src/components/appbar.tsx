@@ -44,7 +44,7 @@ export default function MenuAppBar() {
       <CustomAppBar position="static">
         <Toolbar>
           <TitleTypography variant="h6">
-            Abyssinia {formattedTitleSegment ? `| ${formattedTitleSegment}` : ""}
+            Abyssinia {formattedTitleSegment ? `${formattedTitleSegment}` : ""}
           </TitleTypography>
           {formattedTitleSegment && (
             <Link href={`${SUBDOMAIN}/`} passHref>
