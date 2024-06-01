@@ -2,7 +2,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    assetPrefix: 'http://noahhaile.com/communityprojects/facesofabyssinia', 
+    assetPrefix: 'https://noahhaile.com/communityprojects/facesofabyssinia', 
   };
   
   module.exports = nextConfig;
