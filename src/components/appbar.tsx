@@ -51,6 +51,7 @@ export default function MenuAppBar() {
               <Button
                 color="secondary"
                 variant="contained"
+                sx={{borderRadius: "2px", p: 1}}
                 onClick={homePage}
                 startIcon={<HomeIcon />}
               >
