@@ -161,7 +161,7 @@ const Quiz = () => {
           `}</style>
           <Box mt={2} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
             <LinearProgress variant="determinate" value={progress} sx={{ width: '100%', mb: 2 }} />
-            <Box width="100%" height="40vh" sx={{ display: 'flex', justifyContent: 'center', my: 3 }}>
+            <Box width="100%" height="30vh" sx={{ display: 'flex', justifyContent: 'center', my: 3 }}>
             {loading && (
         <Box 
           display="flex" 
