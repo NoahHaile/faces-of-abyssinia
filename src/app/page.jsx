@@ -2,9 +2,9 @@ import { Box, Typography, Button, Container, Card, CardContent, CardMedia, Paper
 import Link from 'next/link';
 
 const quizzes = [
-  { id: 1, title: 'Ethiopian Leaders', description: 'The people of the past', link: '/leaders', imgSrc: "https://i.ibb.co/N3DLGWF/Haile-Selassie-Africa-Rebirth.jpg" },
-  { id: 2, title: 'Ethiopian Artists', description: 'The artists we know and love', link: '/artists', imgSrc: "https://i.ibb.co/dMTXx1x/teddy-afro.jpg" },
-  { id: 3, title: 'Ethiopian Politicians', description: 'The people in charge today', link: '/politicians', imgSrc: "https://i.ibb.co/SKDmX9r/Abiy-Ahmed.jpg" },
+  { id: 1, title: 'Ethiopian Leaders', description: 'The people of the past', link: 'leaders', imgSrc: "https://i.ibb.co/N3DLGWF/Haile-Selassie-Africa-Rebirth.jpg" },
+  { id: 2, title: 'Ethiopian Artists', description: 'The artists we know and love', link: 'artists', imgSrc: "https://i.ibb.co/dMTXx1x/teddy-afro.jpg" },
+  { id: 3, title: 'Ethiopian Politicians', description: 'The people in charge today', link: 'politicians', imgSrc: "https://i.ibb.co/SKDmX9r/Abiy-Ahmed.jpg" },
 ];
 
 
