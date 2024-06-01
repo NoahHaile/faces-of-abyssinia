@@ -16,7 +16,7 @@ const quizData = [
     link: "https://en.wikipedia.org/wiki/Aster_Aweke"
   },
   {
-    imageSrc: "https://i.ibb.co/C6CPK7H/mahmoud-ahmed.jpg",
+    imageSrc: "https://i.ibb.co/9VC7Mg7/mahmoudahmed.jpg",
     options: ["Mahmoud Ahmed", "Tewodros Kassahun", "Mulatu Astatke", "Ali Birra"],
     answer: 0,
     description: "Mahmoud Ahmed (ማሕሙድ አሕመድ) is an Ethiopian singer. He gained great popularity in Ethiopia in the 1970s and among the Ethiopian diaspora in the 1980s, before rising to international fame with African music fans in Europe and the Americas.",

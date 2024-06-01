@@ -9,7 +9,7 @@ import 'chart.js/auto'; // Import chart.js
 
 const quizData = [
   {
-    imageSrc: "https://i.ibb.co/1n15byZ/Meles-Zenawi.jpg",
+    imageSrc: "https://i.ibb.co/HqxGnb3/prime-minister-meles-2012.jpg",
     options: ["Mesele Zefari", "Habib Shakur", "Meles Zenawi", "Mefte Zenawi"],
     answer: 2,
     description: "Meles Zenawi Asres (መለስ ዜናዊ ኣስረስ), born Legesse Zenawi Asres was an Ethiopian soldier and politician who served as president of Ethiopia from 1991 to 1995 and as prime minister from 1995 until his death in 2012.",
@@ -52,9 +52,9 @@ const quizData = [
   },
   {
     imageSrc: "https://i.ibb.co/0YkX2JK/Haile-Selassie-in-full-dress-cropped.jpg",
-    options: ["Mengistu Haile Mariam", "Hailemariam Desalegn", "Tafari Makonnen", "Bati Dil Wenbera Mahfuz"],
+    options: ["Mengistu Haile Mariam", "Hailemariam Desalegn", "Ras Tafari Makonnen", "Bati Dil Wenbera Mahfuz"],
     answer: 2,
-    description: "Haile Selassie I (ቀዳማዊ ኀይለ ሥላሴ, born Tafari Makonnen) was Emperor of Ethiopia from 1930 to 1974. He rose to power as Regent Plenipotentiary of Ethiopia (Enderase) for Empress Zewditu from 1916 until 1930. Haile Selassie is widely considered a defining figure in modern Ethiopian history, and the major figure of Rastafari, a religious movement in Jamaica that emerged shortly after he became emperor in the 1930s. Before he rose to power he defeated Ras Gugsa Welle Bitul (nephew of Empress Taytu Betul) of Begemder at the Battle of Anchem in 1928. He was a member of the Solomonic dynasty, which claims to trace its lineage to Emperor Menelik I, a legendary figure believed by the claimants to be the son of King Solomon and the Queen of Sheba, who they name as Makeda.",
+    description: "Haile Selassie I (ቀዳማዊ ኀይለ ሥላሴ, born Tafari Makonnen) was Emperor of Ethiopia from 1930 to 1974. He rose to power as Regent Plenipotentiary of Ethiopia (Enderase) for Empress Zewditu from 1916 until 1930. Haile Selassie is widely considered a defining figure in modern Ethiopian history, and the major figure of Rastafari, a religious movement in Jamaica that emerged shortly after he became emperor in the 1930s.",
     link: "https://en.wikipedia.org/wiki/Haile_Selassie"
   },
 ];
