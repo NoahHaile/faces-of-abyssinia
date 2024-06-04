@@ -9,11 +9,18 @@ import 'chart.js/auto'; // Import chart.js
 
 const quizData = [
     {
-        imageSrc: "https://i.ibb.co/Cwrn3Q3/Lemma-Megersa-in-2019.jpg",
-        options: ["Ekeke Mebtu", "Hailemariam Desalegn", "Lemma Megersa", "Mengistu Haile Mariam"],
-        answer: 2,
-        description: "Lemma Megersa (ለማ መገርሳ) is an Ethiopian politician who served as the Minister of Defense 2019 to 2020. He was also the president of the Oromia Region and deputy chairman of the ruling party in the region, the Oromo Democratic Party. Since the formation of the Prosperity Party, Lemma has been independent.",
-        link: "https://en.wikipedia.org/wiki/Lemma_Megersa"
+        imageSrc: "https://i.ibb.co/fnfcydW/Debretsion-Gebremichael-in-2014.jpg",
+        options: ["Dr. Debretsion Gebremichael", "Muferiat Kamil", "Gedu Andargachew", "Tamrat Layne"],
+        answer: 0,
+        description: "Debretsion Gebremichael (ደብረጽዮን ገብረሚካኤል) is an Ethiopian politician serving as the chairman of Tigray People's Liberation Front (TPLF). He was previously the president of the Tigray Region. His position as titular head of the Tigray Region was disputed by the federal government of Ethiopia who in November 2020 appointed Mulu Nega as the chief executive of the Transitional Government of Tigray, succeeded by Abraham Belay.",
+        link: "https://en.wikipedia.org/wiki/Debretsion_Gebremichael"
+    },
+    {
+        imageSrc: "https://i.ibb.co/BjKFBMT/Shimelis-Abdissa-2.jpg",
+        options: ["Mulu Nega", "Shimelis Abdisa", "Gedu Andargachew", "Abadula Gemeda"],
+        answer: 1,
+        description: "Shimelis Abdisa (ሽመልስ አብዲሳ) is an Ethiopian politician serving as the president of the Oromia Region since 18 April 2019. He is also Chief Staff of the Prime Minister since 2018.",
+        link: "https://en.wikipedia.org/wiki/Shimelis_Abdisa"
     },
     {
         imageSrc: "https://i.ibb.co/6Z29Zq0/Birhanu-Nega.png",
@@ -23,11 +30,11 @@ const quizData = [
         link: "https://en.wikipedia.org/wiki/Berhanu_Nega"
     },
     {
-        imageSrc: "https://i.ibb.co/YPRgq9v/330px-Merera-Gudina.png",
-        options: ["Dawud Ibsa", "Debretsion Gebremichael", "Dr. Merara Gudina", "Abebe Bikila"],
+        imageSrc: "https://i.ibb.co/Cwrn3Q3/Lemma-Megersa-in-2019.jpg",
+        options: ["Ekeke Mebtu", "Hailemariam Desalegn", "Lemma Megersa", "Mengistu Haile Mariam"],
         answer: 2,
-        description: "Merera Gudina (born 5 July 1956) is an Ethiopian professor and politician. He is the leader of the Oromo People's Congress (OPC), a political party representing the Oromo people. The organization is opposed to the previous ruling Ethiopian People's Revolutionary Democratic Front and the current authoritarian ruling Abiy Ahmed's Prosperity Party. He has been described as Ethiopian \"leading opposition politician\".",
-        link: "https://en.wikipedia.org/wiki/Merera_Gudina"
+        description: "Lemma Megersa (ለማ መገርሳ) is an Ethiopian politician who served as the Minister of Defense 2019 to 2020. He was also the president of the Oromia Region and deputy chairman of the ruling party in the region, the Oromo Democratic Party. Since the formation of the Prosperity Party, Lemma has been independent.",
+        link: "https://en.wikipedia.org/wiki/Lemma_Megersa"
     },
     {
         imageSrc: "https://i.ibb.co/ZMx59mN/Jawar-Mohammed-cropped.jpg",
@@ -35,14 +42,6 @@ const quizData = [
         answer: 3,
         description: "Jawar Mohammed (ጃዋር መሐመድ) is an Ethiopian political analyst and activist. One of the founders of the Oromia Media Network (OMN), Jawar was a leading organizer of the 2014–2016 Oromo protests. He has been credited with toppling the incumbent government in February 2018 and bringing Abiy Ahmed to power.",
         link: "https://en.wikipedia.org/wiki/Jawar_Mohammed"
-    },
-
-    {
-        imageSrc: "https://i.ibb.co/fnfcydW/Debretsion-Gebremichael-in-2014.jpg",
-        options: ["Dr. Debretsion Gebremichael", "Muferiat Kamil", "Gedu Andargachew", "Tamrat Layne"],
-        answer: 0,
-        description: "Debretsion Gebremichael (ደብረጽዮን ገብረሚካኤል) is an Ethiopian politician serving as the chairman of Tigray People's Liberation Front (TPLF). He was previously the president of the Tigray Region. His position as titular head of the Tigray Region was disputed by the federal government of Ethiopia who in November 2020 appointed Mulu Nega as the chief executive of the Transitional Government of Tigray, succeeded by Abraham Belay.",
-        link: "https://en.wikipedia.org/wiki/Debretsion_Gebremichael"
     },
     {
         imageSrc: "https://i.ibb.co/ggHF8bq/Portrait-of-Addis-Aemero-and-Ethiopian-first-female-President-Sahle-Work-Zewde-cropped.jpg",
@@ -52,19 +51,21 @@ const quizData = [
         link: "https://en.wikipedia.org/wiki/Sahle-Work_Zewde"
     },
     {
+        imageSrc: "https://i.ibb.co/YPRgq9v/330px-Merera-Gudina.png",
+        options: ["Dawud Ibsa", "Debretsion Gebremichael", "Dr. Merara Gudina", "Abebe Bikila"],
+        answer: 2,
+        description: "Merera Gudina (born 5 July 1956) is an Ethiopian professor and politician. He is the leader of the Oromo People's Congress (OPC), a political party representing the Oromo people. The organization is opposed to the previous ruling Ethiopian People's Revolutionary Democratic Front and the current authoritarian ruling Abiy Ahmed's Prosperity Party. He has been described as Ethiopian \"leading opposition politician\".",
+        link: "https://en.wikipedia.org/wiki/Merera_Gudina"
+    },
+
+    {
         imageSrc: "https://i.ibb.co/KyCGgGk/Demeke-Mekonnen-Hassen-2020-cropped.jpg",
         options: ["Demeke Mekonnen", "Hailemariam Desalegn", "Tamrat Layne", "Tedros Adhanom"],
         answer: 0,
         description: "Demeke Mekonnen Hassen (ደመቀ መኮንን ሐሰን) is an Ethiopian politician, former deputy prime minister of Ethiopia, former Minister of Foreign Affairs, and former vice-president of the Prosperity Party. He previously served as chairman of the Amhara Democratic Party (ADP) and deputy chair of the Ethiopian People's Revolutionary Democratic Front (EPRDF) until the dissolution of the two in December 2019.",
         link: "https://en.wikipedia.org/wiki/Demeke_Mekonnen"
     },
-    {
-        imageSrc: "https://i.ibb.co/BjKFBMT/Shimelis-Abdissa-2.jpg",
-        options: ["Mulu Nega", "Shimelis Abdisa", "Gedu Andargachew", "Abadula Gemeda"],
-        answer: 1,
-        description: "Shimelis Abdisa (ሽመልስ አብዲሳ) is an Ethiopian politician serving as the president of the Oromia Region since 18 April 2019. He is also Chief Staff of the Prime Minister since 2018.",
-        link: "https://en.wikipedia.org/wiki/Shimelis_Abdisa"
-    },
+
     {
         imageSrc: "https://i.ibb.co/x7K5xMQ/Getachew-Reda-VOA-Tigrigna-September-2023-1.png",
         options: ["Arega Kebede", "Getachew Reda", "Tamrat Layne", "Muferiat Kamil"],
