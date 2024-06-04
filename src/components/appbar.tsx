@@ -40,7 +40,7 @@ export default function MenuAppBar() {
   const formattedTitleSegment = capitalizeFirstChar(titleSegment);
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, alignItems: 'center' }}>
       <CustomAppBar position="static">
         <Toolbar>
           <TitleTypography variant="h6">

@@ -273,7 +273,7 @@ const Quiz = () => {
             </Box>
             <Typography variant="h6">{result.name}</Typography>
             <Typography variant="body1" align="justified">{result.description}</Typography>
-            <Button variant='text' onClick={() => (redirect(result.link))}>READ MORE</Button>
+            <Button variant='text' sx={{fontSize: 18, pt: 2}} onClick={() => (redirect(result.link))}>READ MORE</Button>
             
           </Paper>
         ))}
